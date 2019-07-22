@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
   let embed = new Discord.RichEmbed()
       .setTitle("PokeAssistant Help")
       .setDescription("Use `help <command>` for details.")
-      .setColor((0xF9FCFC)
+      .setColor((0xFF4500)
       .addField("Legend", "`<arg>` Compulsory argument\n`[arg]` Optional argument");
   
   let generalArr = [],
@@ -25,7 +25,7 @@ module.exports.run = async (client, message, args) => {
   } else {
     let cmd = client.cmdhelp.filter(cmd => cmd.name === args[0]).first();
     let cmdEmbed = new Discord.RichEmbed()
-      .setColor(0xF9FCFC);
+      .setColor(0xFF4500);
     
     if (!cmd) {
       embed
