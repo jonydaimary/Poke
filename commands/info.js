@@ -11,7 +11,7 @@ module.exports.run = async (client, message, args) => {
     .addField("You're miles, or a moderator from Pokecord?", "Impressed with my bot? 100% accuracy. Come drop me a DM.")
     .addField("Want to help?", "I'm glad you would like to help! There are two ways you can do so.\nFirstly, share it. This is extremely important for the bot to grow.\nAnd secondly, support me financially. Look at your PayPal/bank balance/anything, do you have that $1 to spare for me? Yes, even $1 helps. And of course, the more, the better. If you're interested, please drop me a DM. \nHere are some perks you can get:\n- Private bot for your server\n- Premium on another bot\n- Priority for feature requests")
     .addField("GitHub link", "https://github.com/CHamburr/PokeAssistant")
-    .addField("Server invite link", "https://discord.gg/TYe3U4w");
+    .addField("Server invite link", "https://discord.gg/prRZ522");
   
   message.channel.send(embed);
 };
