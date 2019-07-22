@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
   let embed = new Discord.RichEmbed()
       .setTitle("PokeAssistant Help")
       .setDescription("Use `help <command>` for details.")
-      .setColor(0xFF4500)
+      .setColor((0xF9FCFC)
       .addField("Legend", "`<arg>` Compulsory argument\n`[arg]` Optional argument");
   
   let generalArr = [],
