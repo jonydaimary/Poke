@@ -1,6 +1,6 @@
 # PokeAssistant
 
-https://github.com/CHamburr/PokeAssistant
+https://github.com
 
 
-### Made by [CHamburr#2591](https://github.com/CHamburr/PokeAssistant)
+### Made by [@MARCOS々DMR'Y#0001](https://github.com)
