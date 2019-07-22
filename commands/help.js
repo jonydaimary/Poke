@@ -25,7 +25,7 @@ module.exports.run = async (client, message, args) => {
   } else {
     let cmd = client.cmdhelp.filter(cmd => cmd.name === args[0]).first();
     let cmdEmbed = new Discord.RichEmbed()
-      .setColor(0xFF4500);
+      .setColor(0xF9FCFC);
     
     if (!cmd) {
       embed
