@@ -100,7 +100,7 @@ client.on('message', message => {
                     return message.channel.send(embed);
                   }
                 
-                  new Jimp(1024, 256, "#303030", (err, img) => {
+                  new Jimp(1024, 256, "#333233", (err, img) => {
                     Jimp.loadFont(Jimp.FONT_SANS_64_WHITE).then(font => {
                       Jimp.loadFont(Jimp.FONT_SANS_32_WHITE).then(font2 => {
                         img.print(font, 0, 50, {
