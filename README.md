@@ -1,6 +1,6 @@
 # PokeAssistant
 
-https://github.com
 
 
-### Made by [@MARCOS々DMR'Y#0001](https://github.com/jonydaimary/Poke)
+
+### discord link [click here](https://discord.gg/wkHW8Vx)
