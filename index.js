@@ -49,7 +49,7 @@ client.loadCommands();
 client.on('ready', () => {
   console.log(`READY Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   client.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`, "Ready", "event");
-  client.user.setActivity(`Pokemon Hunting`, { url: "https://www.twitch.tv/hypebot"}, { type: "STREAMING"});
+  client.user.setActivity(`Pokemon Hunt`, { url: "https://www.twitch.tv/hypebot"}, { type: "STREAMING"});
 });
 
 client.on('error', error => {
