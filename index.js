@@ -108,7 +108,7 @@ client.on('message', message => {
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
                         img.print(font2, 0, img.bitmap.height - 100, {
-                          text: "Want this bot in your server? Go to https://discord.gg/prRZ522 for more information.",
+                          text: "Want this bot in your server? Go to https://discord.gg/yVuXbW5 for more information.",
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
                         img.getBufferAsync("image/png")
