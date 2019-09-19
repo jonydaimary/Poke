@@ -103,7 +103,7 @@ client.on('message', message => {
                   new Jimp(1024, 256, "#303030", (err, img) => {
                     Jimp.loadFont(Jimp.FONT_SANS_64_WHITE).then(font => {
                       Jimp.loadFont(Jimp.FONT_SANS_32_WHITE).then(font2 => {
-                        img.print(font, 50, 100, {
+                        img.print(font, 0, 100, {
                           text: result,
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
