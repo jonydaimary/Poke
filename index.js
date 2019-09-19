@@ -100,14 +100,14 @@ client.on('message', message => {
                     return message.channel.send(embed);
                   }
                 
-                  new Jimp(2024, 1256, "#303030", (err, img) => {
+                  new Jimp(1024, 256, "#303030", (err, img) => {
                     Jimp.loadFont(Jimp.FONT_SANS_64_WHITE).then(font => {
                       Jimp.loadFont(Jimp.FONT_SANS_32_WHITE).then(font2 => {
-                        img.print(font, 100, 600, {
+                        img.print(font, 0, 60, {
                           text: result,
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
-                        img.print(font2, 200, img.bitmap.height - 700, {
+                        img.print(font2, 0, img.bitmap.height - 200, {
                           text: "WANT THIS BOT IN YOUR SERVER? GO TO https://discord.gg/7pRT8hX WILL GET INVITE LINK.",
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
