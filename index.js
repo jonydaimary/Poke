@@ -107,7 +107,7 @@ client.on('message', message => {
                           text: result,
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
-                        img.print(font2, 0, img.bitmap.height - 200, {
+                        img.print(font2, 0, img.bitmap.height - 100, {
                           text: "WANT THIS BOT IN YOUR SERVER? GO TO https://discord.gg/7pRT8hX WILL GET INVITE LINK.",
                           alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER
                         }, img.bitmap.width, img.bitmap.height);
